@@ -35,8 +35,8 @@ public class Crear : MonoBehaviour
             GameObject Mobs = GameObject.CreatePrimitive(PrimitiveType.Cube);
             Mobs.AddComponent<Rigidbody>();
             Vector3 v = new Vector3();
-            v.x = Random.Range(5, 30);
-            v.z = Random.Range(5, 30);
+            v.x = Random.Range(10, 30);
+            v.z = Random.Range(10,30);
             Mobs.transform.position = v;
             if (i == 0)
             {
